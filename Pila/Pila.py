@@ -30,7 +30,7 @@ class Pila():
             self.lista = [self.lista[x] for x in range(self.tope)]
 
     def show(self):
-        for i in range(self.tope-1, 0, -1):
+        for i in range(self.tope-1, 0-1, -1):
             print(f'[{i}] = {self.lista[i]}')
 
     def size(self):
